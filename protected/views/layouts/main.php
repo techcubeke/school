@@ -34,6 +34,7 @@
 				array('label'=>'Students', 'url'=>array('/student')),
 				array('label'=>'Employess', 'url'=>array('/staff')),
 				array('label'=>'Examinitions', 'url'=>array('/examrecord')),
+				array('label'=>'Vendors', 'url'=>array('/vendors')),		
 				array('label'=>'Fees', 'url'=>array('/feepayment')),
 				array('label'=>'Transport', 'url'=>array('/transportation')),
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
